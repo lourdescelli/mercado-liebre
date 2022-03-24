@@ -1,0 +1,26 @@
+header{
+    background: #EAC926;
+    padding: 5px;
+    width: fit-content;}
+
+.ingreso-usuario {
+border: dashed 1px black;
+background-color: #ebebeb;
+padding: 10px;
+margin: 10px;
+font-size: 14px;
+font-weight: bold;
+width:  100%;
+border-radius: 1px;
+}
+
+.checkbox{
+    margin: 10px;
+    padding: 10px;
+    }
+
+.boton {
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    }

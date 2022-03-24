@@ -1,0 +1,206 @@
+*{  margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Roboto", sans-serif;
+      background-color: #ebebeb;
+    } 
+
+    h3 {
+      font-size: 24px;
+    }
+    
+    p {
+      font-size: 12px;
+    }
+
+
+  .header{
+      background: #EAC926;
+      padding: 5px;
+      width: fit-content;
+  }
+#top {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding: 5px;
+  align-items: center;
+  width: 100vw;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+  header .form{
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 50%;
+  }
+
+  header .submit{
+    width: 5px;
+    text-decoration: none;
+  }
+
+  nav.navbar {
+    display: flex;
+    font-size: 12px;
+    margin-left: 10px;
+    justify-content: space-between;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  nav ul li {
+    list-style-type: none;
+    margin: 10px;
+    color: black;
+    padding: 10px;
+    display: flex;
+  }
+
+  nav ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+  }
+
+  article.burgermenu {
+    text-align: center;
+  }
+  
+  article.burgermenu i {
+    background-color: #0044aa;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+  }
+
+  main {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 90%;
+    text-align: center;
+}
+
+
+  .tarjeta-producto {
+    border: solid 1px #ebebeb;
+    width: max-content;
+    margin-bottom: 10px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position: static;
+  }
+
+
+  .info-producto {
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+    text-align: left;
+    position: relative;
+  }
+
+
+  .info-producto i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    right: 20px;
+    top: -15px;
+    position: absolute;
+    color: #39b54a;}
+
+.precios { 
+  font-size: 18px;
+  width: 30%;
+}
+
+.descuento { 
+  font-size: 16px;
+  color: green;
+  width:  70%;
+}
+
+.descripcion { 
+  font-size: 16px;
+  margin: 2px;
+  display: none;
+} 
+
+.pie{
+  text-align: center;
+}
+ 
+h4{
+  font-size: 14px ;
+}
+
+.fa-user-lock,
+.fa-gift,
+.fa-credit-card {
+  font-size: 2em ;
+  margin-bottom: 10px;
+  color: #0044aa;
+}
+
+@media (max-width: 361px) {
+nav.navbar {
+  display: none;}
+ .header {
+   width: 100%vw;
+ }}
+
+@media (min-width: 362px) {
+  .descripcion {
+    display: block;}
+  .tarjeta-producto {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);}
+    nav.navbar {
+      display: flex;}
+  header article.burgermenu  {
+    display: none;}
+  .logo,
+  .form,
+   {
+    width: 50%;}
+  }
+  .cuotas
+  {
+    width: 50%;}
+  }}
+
+ 
+
+
+  
+  
+
+
+
+
+
+ 
+
+

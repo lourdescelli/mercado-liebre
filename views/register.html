@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+    rel="stylesheet"/>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"/>
+<link rel="stylesheet" href="\images\css\style.css" />
+<link rel="stylesheet" href="\images\css\register.css" />
+    <title>Bienvenidos a Mercado Liebre </title>
+</head>
+<body>
+    <header>
+        <div id="top">
+        <div class="logo">
+        <img src="\images\logo-mercado-liebre.svg" alt="Logo de Mercado Liebre" width= "360" />
+    </div>   
+        <div><form class="form">
+                <input type="text" value="buscar productos, marcas"/>
+                <input class="submit" type="submit"/>
+                <i class="fa fa-search"></i>
+            </form>
+        </div>
+        <div class="cuotas">
+            <p>Comprá en cuotas y sin tarjeta de crédito<i class="fas fa-hand-holding-usd"></i></p> 
+    </div>
+</div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Tiendas Oficiales</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+            <ul>
+                <li><a href="/register">Crea tu cuenta<i class="far fa-id-card"></i></a></li>
+                <li><a href="/login">Ingresa<i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href="/home">Mis Compras<i class="fas fa-shopping-basket"></i></a></li>
+            </ul>
+        </nav>
+        <article class="burgermenu">
+            <i class="fa fa-bars burger"></i>
+        </article>
+      <section class="banner">
+        <img src="\images\img-home-banner.jpg" alt="Banner Mercado Libre" width="100%vw" />
+      </section> 
+    </header>
+<body>
+<section class="formulario">
+    <form action="/" method="login">
+
+<h1 >Registro de Usuario</h1>
+        <div>   <label for="Nombre y Apellido"></label> 
+            <input type="text" name="Nombre y Apellido" placeholder="Apellido y Nombre" class="check" required pattern=".[a-z].{4,8}" >         
+            </div>
+            <div>   <label for="Nobre de Usuari@"></label>  
+                <input type="text" name="Nobre de usuario@" placeholder="Nobre de Usuario" class="check" >
+                </div>
+                <div>   <label for="Fecha de Nacimiento"></label>  
+                    <input type="date" name="Fecha de Nacimiento" placeholder="Fecha de Nacimiento" class="check" required>
+                    </div>
+                     <div>  <label for="Domicilio"></label> 
+    
+                        <input type="text" name="Domicilio" placeholder="Domicilio" class="check" required>
+                        </div>
+<h2>Perfil del Usuario</h2>
+        <div class="perfil">  <label for="Perfil"></label>                         
+            <div> <input type="radio" value="Comprar" name="Perfil" > <label for="Comprar"> Comprar</label>
+                <input type="radio" value="Vender" name="PerfildelUsuario "> <label for="Vender"> Vender</label>
+            </div>
+<h2>Intereses</h2>
+<div class="interes">
+    <label for="Interes"></label> 
+                <div >  <input type="checkbox" value="Electro" name="Interes" > <label for="Electro"> Electro</label></div >
+                <div>  <input type="checkbox" value="Moda" name="Interes" > <label for="Moda"> Moda</label></div>
+                <div>  <input type="checkbox" value="Casa" name="Interes" > <label for="Casa"> Casa</label> </div>
+                <div>  <input type="checkbox" value="Jardin" name="Interes" > <label for="Jardin"> Jardin</label> </div>
+            </div>        
+    <h2>Imagen de Perfil</h2> 
+                <div class="fotoperfil"><input type="file" name="FotoPerfil" id=""></div>
+    <h2>Clave de acceso</h2>
+                <div><label for="Contraseña"></label> 
+                    <input type="password" name="password" placeholder="password" class="check" required pattern=".{6,8}"  title = "La contraseña debe tener una extension de entre 6 y 8 caracteres"> 
+                    </div>
+                    <div> <label for="Confirmar contraseña"></label> 
+                        <input type="password" name="confirm password" placeholder="Confirmpassword" class= "check" required pattern=".{6,8}" title = "La contraseña debe tener una extension de entre 6 y 8 caracteres" class="burbuja">  
+                        </div>
+                <div>
+                    <button type="submit"   class="boton">Guardar  </button>
+                    <button type="reset"   class="boton">Borrar   </button >
+                    </div>  
+                </form>
+                </section>
+</div>
+</body>
+</html>
