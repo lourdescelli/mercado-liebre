@@ -1,10 +1,11 @@
 const express = require("express");
 const app = express();
 const path = require("path");
+const PORT = process.env.PORT || 5001;
 
 app.use(express.static(path.join(path.resolve(__dirname), "./public")));
 
-app.listen(5001, () => console.log("running on port 5001"));
+app.listen(PORT, () => console.log("running on port 5001"));
 
 app.get("/", (req,res) => {
     res.sendFile(path.join(path.resolve(__dirname),"views/home.html"))
